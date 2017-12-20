@@ -1,0 +1,139 @@
+* {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: white;
+  opacity: 0.9;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  opacity: 1;
+  top: 0;
+}
+
+.logo {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 30px;
+  font-weight: lighter;
+}
+
+.nav span {
+  padding: 15px;
+  text-decoration: underline;
+}
+
+.main {
+  background-image: url(background.jpg);
+  height: 700px;
+  top: 70px;
+  width: 1200px;
+}
+
+.banner {
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+}
+
+.banner h2 {
+  font-size: 35px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.banner h4 {
+  margin: auto;
+}
+
+.interlude {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.interlude h2 {
+  font-size: 35px;
+}
+
+.menu {
+  margin: 40px auto auto auto;
+  width: 1000px;
+}
+
+.menu-item img {
+  height: 200px;
+  width: 300px;
+  padding: 15px 15px 0 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  text-align: center;
+  font-weight: bold;
+}
+
+.location-background {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 60px auto auto auto;
+}
+
+.locations {
+  justify-content: space-around;
+  margin: auto;
+  background-color: transparent;
+}
+
+.location-background h2 {
+  background-color: transparent;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.address {
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  flex-basis: 280px;
+  margin: auto;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+}
